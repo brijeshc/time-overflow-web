@@ -4,7 +4,10 @@ import Image from "next/image";
 export default function HomePage() {
   return (
     <div className="relative overflow-hidden grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)] bg-gradient-to-b from-sky-200 to-orange-300">
-      <meta name="google-site-verification" content="QG0PbCZQvOpE1fud0nOSMDAXugzGIfRwkvclopP4zyk" />
+      <meta
+        name="google-site-verification"
+        content="QG0PbCZQvOpE1fud0nOSMDAXugzGIfRwkvclopP4zyk"
+      />
       <main className="relative z-10 flex flex-col gap-12 row-start-2 items-center text-center max-w-4xl">
         <div className="flex flex-col items-center gap-6">
           <div className="rounded-2xl p-6 bg-white/90 shadow-lg">
@@ -28,7 +31,9 @@ export default function HomePage() {
         <p className="text-lg sm:text-xl max-w-2xl text-black bg-white/80 p-4 rounded-lg">
           Transform your relationship with time. Experience a mindful approach
           to daily living with Time Overflow - where every moment flows with
-          purpose and presence.
+          purpose and presence. The app is currently in closed alpha testing and
+          will be available soon.
+          The app is completely free to use and will remain free forever. Did I mention that it is also ad-free?
         </p>
 
         <div className="flex gap-6 items-center flex-col sm:flex-row">
@@ -37,6 +42,7 @@ export default function HomePage() {
             href="https://play.google.com/store/apps/details?id=your.app.id"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Get it on Google Play"
           >
             <Image
               src="/playstore.png"
@@ -52,6 +58,21 @@ export default function HomePage() {
             href="/blog"
           >
             Read our Blog
+          </a>
+          <a
+            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-[#FFDD00] text-black gap-3 hover:bg-[#FFE333] text-base sm:text-lg h-12 sm:h-14 px-6 sm:px-8"
+            href="https://buymeacoffee.com/brijeshc2049"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Support the developer"
+          >
+            <Image
+              src="/bmc.png"
+              alt="Buy Me a Coffee"
+              width={24}
+              height={24}
+            />
+            Support the developer
           </a>
         </div>
 
