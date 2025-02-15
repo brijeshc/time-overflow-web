@@ -32,8 +32,8 @@ export default function HomePage() {
           Transform your relationship with time. Experience a mindful approach
           to daily living with Time Overflow - where every moment flows with
           purpose and presence. The app is currently in closed alpha testing and
-          will be available soon.
-          The app is completely free to use and will remain free forever. Did I mention that it is also ad-free?
+          will be available soon. The app is completely free to use and will
+          remain free forever. Did I mention that it is also ad-free?
         </p>
 
         <div className="flex gap-6 items-center flex-col sm:flex-row">
@@ -54,7 +54,7 @@ export default function HomePage() {
           </a>
 
           <a
-            className="rounded-full border border-solid border-black/[.08] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] hover:border-transparent text-base sm:text-lg h-12 sm:h-14 px-6 sm:px-8 text-black"
+            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-white text-black gap-3 hover:bg-[#f8f8f8] text-base sm:text-lg h-12 sm:h-14 px-6 sm:px-8"
             href="/blog"
           >
             Read our Blog
