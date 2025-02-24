@@ -30,6 +30,15 @@ export default function HomePage() {
             <p className="text-lg sm:text-xl mt-2 text-emerald-700 font-semibold">
               🚀 Now Live on Google Play Store!
             </p>
+            <div className="flex gap-4 items-center justify-center mt-4">
+              <Image
+                src="/qr_code.png"
+                alt="Play Store QR Code"
+                width={80}
+                height={80}
+                className="hidden sm:block bg-white p-1 rounded-lg"
+              />
+            </div>
           </div>
         </div>
 
@@ -79,7 +88,6 @@ export default function HomePage() {
             Support the developer
           </a>
         </div>
-
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 mt-8">
           <div className="flex flex-col items-center gap-3">
             <div className="w-12 h-12 rounded-full bg-red-100 flex items-center justify-center">
