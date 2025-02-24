@@ -24,22 +24,26 @@ export default function HomePage() {
             <h1 className="text-4xl sm:text-6xl font-bold mb-4 text-black">
               Time Overflow
             </h1>
-            <p className="text-xl sm:text-2xl text-black">Mindful Minutes</p>
+            <p className="text-xl sm:text-2xl text-black">
+              Master Your Time, Master Your Life
+            </p>
+            <p className="text-lg sm:text-xl mt-2 text-emerald-700 font-semibold">
+              🚀 Now Live on Google Play Store!
+            </p>
           </div>
         </div>
 
         <p className="text-lg sm:text-xl max-w-2xl text-black bg-white/80 p-4 rounded-lg">
           Transform your relationship with time. Experience a mindful approach
           to daily living with Time Overflow - where every moment flows with
-          purpose and presence. The app is currently in closed alpha testing and
-          will be available soon. The app is completely free to use and will
-          remain free forever. Did I mention that it is also ad-free?
+          purpose and presence. Download now for FREE - NO ADs, no
+          subscriptions, no sign-in, no internet required, just pure value.
         </p>
 
         <div className="flex gap-6 items-center flex-col sm:flex-row">
           <a
             className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-white text-black gap-3 hover:bg-[#f8f8f8] text-base sm:text-lg h-12 sm:h-14 px-6 sm:px-8"
-            href="https://play.google.com/store/apps/details?id=your.app.id"
+            href="https://play.google.com/store/apps/details?id=com.timeoverflow.app"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Get it on Google Play"
