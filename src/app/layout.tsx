@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Time Overflow - Mindful Minutes",
+  title: "Time Overflow -  With Pomodoro",
   description: "Transform your relationship with time with Time Overflow",
 };
 
